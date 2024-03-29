@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="267.0" prefWidth="433.0" style="-fx-background-color: #BA4949; -fx-background-color: #BA4949;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pomodorotimer.PomodoroController">
+    <children>
+        <Label fx:id="timerLabel" layoutX="146.0" layoutY="90.0" text="25:00" textFill="WHITE">
+            <font>
+                <javafx.scene.text.Font size="60.0" />
+            </font>
+        </Label>
+        <Button fx:id="startButton" layoutX="92.0" layoutY="196.0" mnemonicParsing="false" onAction="#startTimer" text="Start" />
+        <Button fx:id="pauseButton" layoutX="194.0" layoutY="196.0" mnemonicParsing="false" onAction="#pauseTimer" text="Pause" />
+        <Button fx:id="resetButton" layoutX="306.0" layoutY="196.0" mnemonicParsing="false" onAction="#resetTimer" text="Reset" />
+        <Button fx:id="longBreakButton" layoutX="291.0" layoutY="55.0" mnemonicParsing="false" onAction="#setLongBreak" text="Long Break" />
+        <Button fx:id="shortBreakButton" layoutX="164.0" layoutY="55.0" mnemonicParsing="false" onAction="#setShortBreak" text="Short Break" />
+      <Button fx:id="pomodoroTimer" layoutX="53.0" layoutY="55.0" mnemonicParsing="false" onAction="#pomodoro" text="Pomodoro" />
+    </children>
+   <effect>
+      <ColorAdjust />
+   </effect>
+</AnchorPane>
