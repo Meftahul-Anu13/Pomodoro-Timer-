@@ -1,1 +1,3 @@
-# Pomodoro-Timer-
+# Pomodoro-Timer
+A simple Pomodoro timer Using JavaFx and Scenebuilder ... ..
+Further Modification Can be added for focusing through the timer ....
